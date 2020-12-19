@@ -14,13 +14,13 @@ def readme():
         return None
 
 setup(
-    name='sphinxcontrib-hydomain',
+    name='sphinxcontrib-hyautodoc',
     version='0.1.0',
-    url='https://github.com/allison-casey/sphinxcontrib-hydomain.git',
+    url='https://github.com/allison-casey/sphinxcontrib-hyautodoc.git',
     license='BSD',
     author='Allison Casey',
     author_email='alliecasey21@gmail.com',
-    description='Sphinx domain for documenting Hy programs',
+    description='Sphinx domain for autodocumenting Hy programs with sphinx autodoc',
     long_description=readme(),
     zip_safe=False,
     classifiers=[
